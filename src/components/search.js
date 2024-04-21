@@ -1,7 +1,7 @@
 "use client"
 export default function Search({search, setSearch, handleSearch}) {
     return (
-      <div className="search-engine w-full flex justify-around items-center mb-8 mt-2.5">
+      <div className="search-engine text-black w-full flex justify-around items-center mb-8 mt-2.5">
         <input
           type="text"
           placeholder="Enter City Name"
